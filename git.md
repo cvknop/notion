@@ -2,6 +2,18 @@ https://wangchujiang.com/linux-command/c/git.html
 
 
 
+#### 新建分支
+
+```bash
+git branch test # 新建test分支
+git checkout -b xxx
+# 将本地分支推到仓库
+git push --set-upstream origin test
+git branch --track dev origin/dev
+```
+
+
+
 #### stash
 
 https://juejin.cn/post/7107973938591825933
